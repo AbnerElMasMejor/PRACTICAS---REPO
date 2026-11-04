@@ -1,0 +1,82 @@
+\documentclass[11pt,a4paper]{article}
+
+% --- PAQUETES DE FORMATO Y ESTILO ---
+\usepackage[utf8]{inputenc}
+\usepackage[spanish]{babel}
+\usepackage[margin=1in]{geometry}
+\usepackage{hyperref}
+\usepackage{enumitem}
+\usepackage{xcolor}
+\usepackage{titlesec}
+
+% Colores personalizados
+\definecolor{primary}{RGB}{30, 58, 138} % Azul oscuro profesional
+\definecolor{graytext}{RGB}{75, 85, 99}
+
+% Configuración de enlaces
+\hypersetup{
+    colorlinks=true,
+    linkcolor=primary,
+    filecolor=primary,      
+    urlcolor=primary,
+}
+
+% Estilo para los títulos de secciones
+\titleformat{\section}
+  {\Large\bfseries\color{primary}}
+  {}{0em}
+  {}[\titlerule]
+
+\pagestyle{empty} % Quitar número de página
+
+\begin{document}
+
+% --- ENCABEZADO ---
+\begin{center}
+    {\Huge \bfseries Abner Fernando Xajpot Tzirin}\\[0.4em]
+    {\large \color{graytext} Estudiante de Perito en Informática}\\[0.6em]
+    \href{mailto:abnerxajpot@emilianisomascos.edu.gt}{abnerxajpot@emilianisomascos.edu.gt} $\cdot$ 
+    \href{https://github.com/AbnerElMasMejor}{github.com/AbnerElMasMejor}
+\end{center}
+
+\vspace{0.5em}
+
+% --- PERFIL PERSONAL ---
+\section{Perfil Personal}
+Estudiante de informática con un gran interés por la tecnología. Desde muy joven me ha gustado entender cómo funcionan las herramientas digitales, desde páginas web hasta videojuegos. Me caracterizo por mi deseo constante de aprender cosas nuevas, adaptarme a distintos programas y resolver problemas creando código.
+
+% --- EDUCACIÓN ---
+\section{Educación}
+
+\textbf{Perito en Informática} \hfill 2025 -- Presente \\
+\textit{Instituto Emiliani Somascos}
+\begin{itemize}[leftmargin=1.5em, itemsep=2pt]
+    \item Cursando actualmente la carrera técnica.
+\end{itemize}
+
+\vspace{0.3em}
+
+\textbf{Educación Básica} \hfill 2022 -- 2024 \\
+\textit{Colegio Evangélico "Virtud y Ciencia"}
+\begin{itemize}[leftmargin=1.5em, itemsep=2pt]
+    \item Diploma de Nivel Básico obtenido.
+\end{itemize}
+
+% --- CONOCIMIENTOS TÉCNICOS ---
+\section{Conocimientos Técnicos}
+\begin{itemize}[leftmargin=1.5em, itemsep=4pt]
+    \item \textbf{Lenguajes de Programación:} Java, Python, C\#, C++, PHP, HTML/CSS.
+    \item \textbf{Bases de Datos:} MySQL, DB2, Microsoft Access.
+    \item \textbf{Herramientas de Trabajo:} Visual Studio Code, Git/GitHub.
+    \item \textbf{Sistemas Operativos y Equipos:} Manejo del sistema Windows, conocimientos básicos de Linux y limpieza básica de computadoras.
+\end{itemize}
+
+% --- HABILIDADES PERSONALES ---
+\section{Habilidades Personales}
+\begin{itemize}[leftmargin=1.5em, itemsep=4pt]
+    \item \textbf{Trabajo en equipo:} Facilidad para ayudar a otros y trabajar juntos para lograr metas en grupo.
+    \item \textbf{Responsabilidad:} Cumplimiento puntual y correcto con las tareas encomendadas.
+    \item \textbf{Facilidad de aprendizaje:} Capacidad para entender rápido temas nuevos y adaptarme a distintos programas.
+    \item \textbf{Organización:} Cuidado al seguir instrucciones y realizar trabajos bien hechos.
+\end{itemize}
+\end{document}
