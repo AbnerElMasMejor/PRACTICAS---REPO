@@ -4,3 +4,6 @@ La creaci�n del LED azul fue un reto muy grande, hasta las grandes empresas fr
 
 ## 2. Clipper y DOS
 DOS utilizaba la base de datos dBase y se compilaba con Clipper. Clipper permite transformar el codigo fuente en archivos ejecutables que son los ".exe", y con esto facilitando la entrega al cliente, sin necesidad de entregar el c�digo fuente como tal.Pero con la llegada de Windows fue donde cambi� todo, las interfaces gr�ficas fueron obligadas a actualizar las herramientas, o mas bien dicho a evolucionarlas.Aunque sigue operandose en sistemas heredados. 
+
+## 3. Linus Torvalds 
+Lo que destaco de la historia de Linus es comprobar que, a pesar de no tener presupuestos millonarios o grandes planes corporativos, se puede revolucionar la tecnolog�a. Con mucho inter�s y tambi�n proponiendonos resolver un problema, llegando a nuestra meta. Y Linus con estas caracteristicas puso en pie a Linux y a Git, pilares muy fundamentales en los sitios digitales. 
